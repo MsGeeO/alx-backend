@@ -1,8 +1,9 @@
-0x02. i18n
+# 0x02. i18n
 Learn how to parametrize Flask templates to display different languages
 Learn how to infer the correct locale based on URL parameters, user settings or request headers
 Learn how to localize timestamps
-Prerequisites
+
+# Prerequisites
 All your files will be interpreted/compiled on Ubuntu 18.04 LTS using python3 (version 3.7)
 All your files should end with a new line
 A README.md file, at the root of the folder of the project, is mandatory
@@ -14,9 +15,11 @@ All your classes should have a documentation (python3 -c 'print(__import__("my_m
 All your functions and methods should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
 A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
 All your functions and coroutines must be type-annotated.
-Run
+
+# Run
 $ Python3.7 ./app.py
-Files
+
+# Files
 Files	Description
 0-app.py	Basic Flask app
 1-app.py	Basic Babel setup
